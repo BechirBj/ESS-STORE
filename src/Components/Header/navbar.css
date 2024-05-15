@@ -1,0 +1,74 @@
+.header-top {
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: #FFFFFF;
+  }
+  
+  .logo-section img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .header-top p {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .header-top a {
+    text-decoration: none;
+    color: var(--black-color);
+    margin-left: 10px;
+  }
+  
+  .nav-top {
+    display: grid;
+  }
+  .search-box{
+    display: flex;
+    align-items: center;
+    gap:20px;
+  }
+  
+  .inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 250px;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup input:focus + label,
+  .inputGroup input:valid + label {
+    transform: translateY(-50%) scale(0.9);
+    margin: 0;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #e8e8e8;
+  }
+  
+  .inputGroup input:focus,
+  .inputGroup input:valid {
+    border-color: rgb(150, 150, 200);
+  }
+  
