@@ -1,16 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-:root {
-  --primary-color: #D91F1F;
-  --secondary-color: #920000;
-  --third-color:#F7E2E2;
-  --text-color: #FFFFFF;
-  --black-color:#000000;
-}
-:root {
-  --blue: #1e90ff;
-  --white: #ffffff;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

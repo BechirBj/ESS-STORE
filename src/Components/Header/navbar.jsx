@@ -13,6 +13,9 @@ const Navbar = () => {
           Sign up to become an ETOILISTE and get 15% off your first purchase <span> <a href=""> Sign up </a></span>
         </p>
       </div>
+      <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
 
       <div className="navigation-bar">
         <header className='relative'>
