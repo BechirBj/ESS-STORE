@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg-gradient-primary-secondary {
+  background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}

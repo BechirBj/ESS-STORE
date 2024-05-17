@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
+
   :root {
     --primary-color: #D91F1F;
     --secondary-color: #920000;
