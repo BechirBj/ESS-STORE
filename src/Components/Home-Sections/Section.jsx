@@ -5,43 +5,47 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import bg from '../../Assets/Nouveau dossier/background_page.jpg';
+import img1 from '../../Assets/Nouveau dossier/99/1.jpg';
+import img2 from '../../Assets/Nouveau dossier/99/2.jpg';
+import img3 from '../../Assets/Nouveau dossier/99/3.jpg';
+import img4 from '../../Assets/Nouveau dossier/99/4.jpg';
 
 const jerseys = [
   {
     id: 1,
     name: 'Home Kit',
     price: '€89.99',
-    imgSrc: 'path/to/home-kit.jpg', // replace with actual image path
+    imgSrc: img1, 
   },
   {
     id: 2,
     name: 'Away Kit',
     price: '€89.99',
-    imgSrc: 'path/to/away-kit.jpg', // replace with actual image path
+    imgSrc: img2, 
   },
   {
     id: 3,
     name: 'Third Kit',
     price: '€89.99',
-    imgSrc: 'path/to/third-kit.jpg', // replace with actual image path
+    imgSrc: img3, 
   },
   {
     id: 4,
     name: 'Training Kit',
     price: '€69.99',
-    imgSrc: 'path/to/training-kit.jpg', // replace with actual image path
+    imgSrc: img4, 
   },
   {
     id: 5,
     name: 'Special Edition Kit',
     price: '€99.99',
-    imgSrc: 'path/to/special-edition-kit.jpg', // replace with actual image path
+    imgSrc: 'path/to/special-edition-kit.jpg', 
   },
   {
     id: 6,
     name: 'Goalkeeper Kit',
     price: '€89.99',
-    imgSrc: 'path/to/goalkeeper-kit.jpg', // replace with actual image path
+    imgSrc: 'path/to/goalkeeper-kit.jpg', 
   },
   // Add more jerseys as needed
 ];
@@ -119,7 +123,7 @@ const Section = () => {
             <SwiperSlide key={jersey.id}>
                 <a href="">
               <div className="border rounded-lg overflow-hidden shadow-md">
-                <img src={jersey.imgSrc} alt={jersey.name} className="w-full h-60 object-cover" />
+                <img src={jersey.imgSrc} alt={jersey.name} className="content-center w-80 h-80 rounded-3xl ml-5" />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold mb-2">{jersey.name}</h2>
                   <p className="text-lg font-medium text-gray-700">{jersey.price}</p>
