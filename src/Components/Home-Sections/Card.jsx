@@ -11,7 +11,6 @@ const Card = () => {
             SWEAT A CAPUCHE ZIPPE
             </h2>
         <div className='flex flex-col m-1'>      
-
             <div className=' flex content-start gap-2 items-center'>
                 <img src={Stars} alt="" className='w-24 h-8'/>
                     <p> 5.0 / <span className=' text-gray-400'> 5 </span>
