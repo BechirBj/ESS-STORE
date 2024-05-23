@@ -4,6 +4,9 @@ import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
+
+import Card from '../../Components/Home-Sections/Card';
+
 import bg from '../../Assets/Nouveau dossier/background_page.jpg';
 import img1 from '../../Assets/Nouveau dossier/99/1.jpg';
 import img2 from '../../Assets/Nouveau dossier/99/2.jpg';
@@ -92,48 +95,67 @@ const Section = () => {
           </div>
         </div>
       </header>
-
-      <section className="py-12 px-4 md:px-12 bg-gray-200">
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">TRENDING NOW</h1>
-        <div className="text-3xl flex justify-center  mb-8 gap-4">        
-            <button type="button" class="text-gray-700 py-2.5 px-5 me-2 mb-2 text-xl font-medium   bg-white rounded-full border border-gray-200 focus:z-10  dark:focus:ring-0-red-700  dark:text-gray-800  dark:focus:text-red-800 dark:border-gray-600 dark:hover:text-gray-700 dark:hover:bg-gray-200 dark:focus:border-red-800">
-                99 ANS
-            </button>
-            <button type="button" class="text-gray-700 py-2.5 px-5 me-2 mb-2 text-xl font-medium   bg-white rounded-full border border-gray-200 focus:z-10  dark:focus:ring-0-red-700  dark:text-gray-800 dark:focus:text-red-800 dark:border-gray-600 dark:hover:text-gray-700 dark:hover:bg-gray-200 dark:focus:border-red-800">
-                Hoodies
-            </button>
-            <button type="button" class="text-gray-700 py-2.5 px-5 me-2 mb-2 text-xl font-medium   bg-white rounded-full border border-gray-200 focus:z-10  dark:focus:ring-0-red-700  dark:text-gray-800 dark:focus:text-red-800 dark:border-gray-600 dark:hover:text-gray-700 dark:hover:bg-gray-200 dark:focus:border-red-800">
-                Casual
-            </button>
-        </div>
-        <Swiper
-          spaceBetween={20}
-          slidesPerView={1}
-          navigation
-          pagination={{ clickable: true }}
-          breakpoints={{
-            640: { slidesPerView: 2 },
-            768: { slidesPerView: 3 },
-            1024: { slidesPerView: 4 },
-          }}
-          modules={[Navigation, Pagination]}
-          className="mySwiper"
-        >
-          {jerseys.map((jersey) => (
-            <SwiperSlide key={jersey.id}>
-                <a href="">
-              <div className="border rounded-lg overflow-hidden shadow-md">
-                <img src={jersey.imgSrc} alt={jersey.name} className="content-center w-80 h-80 rounded-3xl ml-5" />
-                <div className="p-4">
-                  <h2 className="text-xl font-semibold mb-2">{jersey.name}</h2>
-                  <p className="text-lg font-medium text-gray-700">{jersey.price}</p>
+      <article>
+        <section className="py-12 px-4 md:px-12 bg-gray-200">
+          <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">TRENDING NOW</h1>
+          <div className="text-3xl flex justify-center  mb-8 gap-4">        
+              <button type="button" class="text-gray-700 py-2.5 px-5 me-2 mb-2 text-xl font-medium   bg-white rounded-full border border-gray-200 focus:z-10  dark:focus:ring-0-red-700  dark:text-gray-800  dark:focus:text-red-800 dark:border-gray-600 dark:hover:text-gray-700 dark:hover:bg-gray-200 dark:focus:border-red-800">
+                  99 ANS
+              </button>
+              <button type="button" class="text-gray-700 py-2.5 px-5 me-2 mb-2 text-xl font-medium   bg-white rounded-full border border-gray-200 focus:z-10  dark:focus:ring-0-red-700  dark:text-gray-800 dark:focus:text-red-800 dark:border-gray-600 dark:hover:text-gray-700 dark:hover:bg-gray-200 dark:focus:border-red-800">
+                  Hoodies
+              </button>
+              <button type="button" class="text-gray-700 py-2.5 px-5 me-2 mb-2 text-xl font-medium   bg-white rounded-full border border-gray-200 focus:z-10  dark:focus:ring-0-red-700  dark:text-gray-800 dark:focus:text-red-800 dark:border-gray-600 dark:hover:text-gray-700 dark:hover:bg-gray-200 dark:focus:border-red-800">
+                  Casual
+              </button>
+          </div>
+          <Swiper
+            spaceBetween={20}
+            slidesPerView={1}
+            navigation
+            pagination={{ clickable: true }}
+            breakpoints={{
+              640: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
+              1024: { slidesPerView: 4 },
+            }}
+            modules={[Navigation, Pagination]}
+            className="mySwiper"
+          >
+            {jerseys.map((jersey) => (
+              <SwiperSlide key={jersey.id}>
+                  <a href="">
+                <div className="border rounded-lg overflow-hidden shadow-md">
+                  <img src={jersey.imgSrc} alt={jersey.name} className="content-center w-80 h-80 rounded-3xl ml-5" />
+                  <div className="p-4">
+                    <h2 className="text-xl font-semibold mb-2">{jersey.name}</h2>
+                    <p className="text-lg font-medium text-gray-700">{jersey.price}</p>
+                  </div>
                 </div>
-              </div>
-              </a>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </section>
+                </a>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </section>
+
+
+
+        <section>
+          <div className='m-14'>
+            <h1 className='text-3xl md:text-4xl font-bold text-center mb-8 '> 
+              Top Selling
+            </h1>
+          </div>
+          <div>
+            <Card/>
+          </div>
+
+        </section>
+
+
+
+
+      </article>
     </div>
   );
 };
