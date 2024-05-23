@@ -158,6 +158,7 @@ const Footer = () => {
             </p>
             <PaymentIcons/> 
             <Smicons /> 
+            <div class="flex py-8 justify-center"><a class="text-xs flex-1 text-black font-primary" href="">ESS STORE © 2024 All Rights Reserved</a></div>
           </div>
         </div>
       </div>  

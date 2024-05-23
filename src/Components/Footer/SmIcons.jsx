@@ -46,11 +46,9 @@ const Smicons = () => {
         <img
           alt="Etoile Sportive du Sahel"
           loading="lazy"
-          width="24"
-          height="24"
           decoding="async"
           data-nimg="1"
-          className="max-w-full h-auto hover:opacity-75 opacity-100"
+          className="w-16 h-18 hover:opacity-75 opacity-100"
           style={{ color: 'transparent' }}
           src={logo}
         />
@@ -68,7 +66,6 @@ const Smicons = () => {
               data-nimg="1"
               className="w-max h-max hover:opacity-75 opacity-100 py-2 md:pr-8"
               style={{ color: 'transparent', filter: 'brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(0%) contrast(100%)' }}
-
               src={link.src}
             />
           </a>
