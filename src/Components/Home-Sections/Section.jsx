@@ -7,7 +7,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 import Card from '../../Components/Home-Sections/Card';
 import bg from '../../Assets/Nouveau dossier/background_page.jpg';
-import jerseys from '../../Assets/Data/Jerseys/Jerseys'; // Import the jerseys data
+import jerseys from '../../Assets/Data/Jerseys/Jerseys';
 
 const Section = () => {
   return (
@@ -100,10 +100,23 @@ const Section = () => {
             </h1>
           </div>
           <div className='flex flex-wrap justify-center'>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+            <a href="" >
+              <Card/>
+            </a>
+            <a href="" >
+              <Card/>
+            </a>
+            <a href="" >
+              <Card/>
+            </a>
+            <a href="" >
+              <Card/>
+            </a>
+          </div>
+          <div className=' justify-center flex m-7'>
+            <button className='text-2xl rounded-2xl border border-red-200   hover:border-red-700  w-44 h-14 '>
+                Show All
+            </button>
           </div>
         </section>
       </article>
