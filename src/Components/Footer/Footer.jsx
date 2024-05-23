@@ -1,8 +1,10 @@
 import React from "react";
+import PaymentIcons from "./PaymentIcons";
+import Smicons from "./SmIcons";
 
 const Footer = () => {
   return (
-    <footer className="bg-red-200">
+    <footer className="bg-red-100">
       <div className="px-8 mx-auto">
         <div className="hidden px-8 pt-16 pb-7 desktop-menu justify-around md:flex w-full">
           <div className="md:flex md:py-7 overflow-x-hidden w-max">
@@ -16,7 +18,7 @@ const Footer = () => {
               <ul role="list" className="mt-1 space-y-1">
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     How to Order
@@ -24,7 +26,7 @@ const Footer = () => {
                 </li>
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     Shipping &amp; Returns
@@ -32,7 +34,7 @@ const Footer = () => {
                 </li>
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     Track My Order
@@ -40,7 +42,7 @@ const Footer = () => {
                 </li>
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     My Account
@@ -48,7 +50,7 @@ const Footer = () => {
                 </li>
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     Shop Locator
@@ -68,7 +70,7 @@ const Footer = () => {
               <ul role="list" className="mt-1 space-y-1">
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     Privacy Policy
@@ -76,7 +78,7 @@ const Footer = () => {
                 </li>
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     Cookie Policy
@@ -84,7 +86,7 @@ const Footer = () => {
                 </li>
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     Terms &amp; Conditions
@@ -104,7 +106,7 @@ const Footer = () => {
               <ul role="list" className="mt-1 space-y-1">
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     Contact Us
@@ -112,7 +114,7 @@ const Footer = () => {
                 </li>
                 <li className="me-8">
                   <a
-                    className="text-sm text-white opacity-75 hover:underline "
+                    className="text-sm text-black  hover:underline "
                     href=""
                   >
                     FAQS
@@ -147,7 +149,18 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>   
+        </div>
+        <div className="grid md:px-14 px-4">
+        <div className="hidden md:flex flex-col justify-start md:pb-6 sm:pb-0 pt-4 sm:pt-0">
+          <div className="grid w-full">
+            <p className="antialiased font-primary leading-tighter tracking-tight text-inherit text-base justify-start text-center sm:text-start sm:text-lg font-bold pl-1 py-2 sm:pb-0">
+              Payments Accepted
+            </p>
+            <PaymentIcons/> 
+            <Smicons /> 
+          </div>
+        </div>
+      </div>  
       </div>
     </footer>
   );
