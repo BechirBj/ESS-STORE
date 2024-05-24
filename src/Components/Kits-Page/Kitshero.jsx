@@ -13,7 +13,7 @@ const Kitshero = () => {
                 <div className="rounded-lg absolute top-0 left-0 w-full h-full z-0 name hexCode"></div>
                 <div className="md:text-4xl text-3xl font-bold pb-4 text-center sm:text-start w-full mb-2 z-10 name hexCode">
                   <h1 className="block antialiased tracking-tight font-sans text-3xl lg:text-4xl xl:text-5xl leading-tight text-inherit font-bold">
-                    Etoile Sportive du Sahel Jerseys 23/4
+                    Etoile Sportive du Sahel Jerseys 23/24
                   </h1>
                 </div>
                 <div className="mx-auto lg:mx-0 mt-0 md:text-xl text-lg z-10 text-start w-full name hexCode">
