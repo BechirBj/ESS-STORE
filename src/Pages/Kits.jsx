@@ -6,15 +6,9 @@ import Kitshero from '../Components/Kits-Page/Kitshero'
 const Kits = () => {
   return (
     <div>
-    <Navbar/>
-    <div className='relative min-h-fit'>
-      <div className='w-full h-96 relative'>
-          <div>
-            <Kitshero/>
-          </div>
-      </div>
-    </div>
-    <Footer/>
+      <Navbar/>
+      <Kitshero/>
+      <Footer/>
     </div>
   )
 }

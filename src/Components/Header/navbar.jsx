@@ -131,9 +131,7 @@ const Navbar = () => {
                   <ul>                                
                     <li> <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Mens</a></li>
                   </ul>
-                </div> 
-                
-                
+                </div>                
             </div>
             </div>   
 
