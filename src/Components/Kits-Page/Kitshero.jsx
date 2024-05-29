@@ -41,7 +41,7 @@ const Kitshero = () => {
 
         <div className="md:w-1/2  flex flex-wrap md:gap-6 gap-4">
           
-          <a href="" className="p-[10px]  shadow-productCard w-60 h-auto bg-white group  grid rounded-lg relative ">
+          <a href="" className="p-[10px]  shadow-productCard w-[301px] h-[415px] bg-white group  grid rounded-lg relative ">
             <div className="">
               <div className="content-center">
                 <div className="rounded-3xl flex flex-col items-center justify-between relative transition-all duration-300  overflow-hidden">
@@ -56,7 +56,7 @@ const Kitshero = () => {
                   <div class="items-center h-[65px] border-t border-gray-200 text-gray-950 font-primary font-bold w-full inline-flex pt-3 "><p class="text-sm py-1 tracking-normal text-gray-700 text-center"></p><span class="flex flex-wrap items-center tracking-normal"><span>70 DT </span></span></div></div></div>
             </div>
           </a>
-          <a href="" className="p-[10px]  shadow-productCard w-60 h-98 bg-white group  grid rounded-lg relative ">
+          <a href="" className="p-[10px]  shadow-productCard w-[301px] h-[415px] bg-white group  grid rounded-lg relative ">
             <div className="">
               <div className="content-center">
                 <div className="rounded-3xl flex flex-col items-center justify-between relative transition-all duration-300  overflow-hidden">
@@ -71,7 +71,7 @@ const Kitshero = () => {
                   <div class="items-center h-[65px] border-t border-gray-200 text-gray-950 font-primary font-bold w-full inline-flex pt-3 "><p class="text-sm py-1 tracking-normal text-gray-700 text-center"></p><span class="flex flex-wrap items-center tracking-normal"><span>70 DT </span></span></div></div></div>
             </div>
           </a>
-          <a href="" className="p-[10px]  shadow-productCard w-60 h-98 bg-white group  grid rounded-lg relative ">
+          <a href="" className="p-[10px]  shadow-productCard w-[301px] h-[415px] bg-white group  grid rounded-lg relative ">
             <div className="">
               <div className="content-center">
                 <div className="rounded-3xl flex flex-col items-center justify-between relative transition-all duration-300  overflow-hidden">
@@ -86,7 +86,7 @@ const Kitshero = () => {
                   <div class="items-center h-[65px] border-t border-gray-200 text-gray-950 font-primary font-bold w-full inline-flex pt-3 "><p class="text-sm py-1 tracking-normal text-gray-700 text-center"></p><span class="flex flex-wrap items-center tracking-normal"><span>70 DT </span></span></div></div></div>
             </div>
           </a>
-          <a href="" className="p-[10px]  shadow-productCard w-60 h-98 bg-white group  grid rounded-lg relative ">
+          <a href="" className="p-[10px]  shadow-productCard w-[301px] h-[415px] bg-white group  grid rounded-lg relative ">
             <div className="">
               <div className="content-center">
                 <div className="rounded-3xl flex flex-col items-center justify-between relative transition-all duration-300  overflow-hidden">
@@ -101,36 +101,7 @@ const Kitshero = () => {
                   <div class="items-center h-[65px] border-t border-gray-200 text-gray-950 font-primary font-bold w-full inline-flex pt-3 "><p class="text-sm py-1 tracking-normal text-gray-700 text-center"></p><span class="flex flex-wrap items-center tracking-normal"><span>70 DT </span></span></div></div></div>
             </div>
           </a>
-          <a href="" className="p-[10px]  shadow-productCard w-60 h-98 bg-white group  grid rounded-lg relative ">
-            <div className="">
-              <div className="content-center">
-                <div className="rounded-3xl flex flex-col items-center justify-between relative transition-all duration-300  overflow-hidden">
-                    <img src={p1} alt="" />
-                </div>
-              </div>
-              <div class=" content-end">
-                <div class="text-gray-950 px-[4px] lg:px-[10px] py-[5px] h-full flex flex-col justify-end gap-3 w-full">
-                  <div class="flex flex-wrap justify-start h-[50px] w-[90%]"><span class="inline-flex items-center text-start font-bold text-gray-950 line-clamp-2 font-primary group-hover:underline leading-6 tracking-tighter sm:text-lg">
-                    Mens Home Jersey 23/24 White </span>
-                  </div>
-                  <div class="items-center h-[65px] border-t border-gray-200 text-gray-950 font-primary font-bold w-full inline-flex pt-3 "><p class="text-sm py-1 tracking-normal text-gray-700 text-center"></p><span class="flex flex-wrap items-center tracking-normal"><span>70 DT </span></span></div></div></div>
-            </div>
-          </a>
-          <a href="" className="p-[10px]  shadow-productCard w-60 h-98 bg-white group  grid rounded-lg relative ">
-            <div className="">
-              <div className="content-center">
-                <div className="rounded-3xl flex flex-col items-center justify-between relative transition-all duration-300  overflow-hidden">
-                    <img src={p1} alt="" />
-                </div>
-              </div>
-              <div class=" content-end">
-                <div class="text-gray-950 px-[4px] lg:px-[10px] py-[5px] h-full flex flex-col justify-end gap-3 w-full">
-                  <div class="flex flex-wrap justify-start h-[50px] w-[90%]"><span class="inline-flex items-center text-start font-bold text-gray-950 line-clamp-2 font-primary group-hover:underline leading-6 tracking-tighter sm:text-lg">
-                    Mens Home Jersey 23/24 White </span>
-                  </div>
-                  <div class="items-center h-[65px] border-t border-gray-200 text-gray-950 font-primary font-bold w-full inline-flex pt-3 "><p class="text-sm py-1 tracking-normal text-gray-700 text-center"></p><span class="flex flex-wrap items-center tracking-normal"><span>70 DT </span></span></div></div></div>
-            </div>
-          </a>
+          
         </div>
       </div>
       
