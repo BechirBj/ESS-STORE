@@ -61,7 +61,7 @@ const Kitshero = () => {
                   <img src={p1} alt="" />
               </div>
             </div>
-            <div class="grid content-end"><div class="text-gray-950 px-[4px] lg:px-[10px] py-[5px] h-full flex flex-col justify-end gap-3 w-full"><div class="flex flex-wrap justify-start h-[50px] w-[90%]"><span class="inline-flex items-center text-start font-bold text-gray-950 line-clamp-2 font-primary group-hover:underline leading-6 tracking-tighter sm:text-lg">Mens Home Jersey 23/24 White</span></div><div class="items-center h-[65px] border-t border-gray-200 text-gray-950 font-primary font-bold w-full inline-flex pt-3 "><p class="text-sm py-1 tracking-normal text-gray-700 text-center"></p><span class="flex flex-wrap items-center tracking-normal"><span>€100.00</span></span></div></div></div>
+            <div class="grid content-end"><div class="text-gray-950 px-[4px] lg:px-[10px] py-[5px] h-full flex flex-col justify-end gap-3 w-full"><div class="flex flex-wrap justify-start h-[50px] w-[90%]"><span class="inline-flex items-center text-start font-bold text-gray-950 line-clamp-2 font-primary group-hover:underline leading-6 tracking-tighter sm:text-lg">Mens Home Jersey 23/24 White</span></div><div class="items-center h-[65px] border-t border-gray-200 text-gray-950 font-primary font-bold w-full inline-flex pt-3 "><p class="text-sm py-1 tracking-normal text-gray-700 text-center"></p><span class="flex flex-wrap items-center tracking-normal"><span>70 DT </span></span></div></div></div>
           </div>
         </a>
       </div>
