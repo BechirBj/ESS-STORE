@@ -140,7 +140,7 @@ const Navbar = () => {
               <a href="#" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
                 Shop By Player
               </a>
-              <div className="absolute  h-max w-max bg-white rounded-md shadow-lg z-10 hidden  group-hover:flex gap-5 p-3 ">
+              <div className="absolute  w-[875px] bg-white rounded-md shadow-lg z-10 hidden  group-hover:flex gap-5 p-3 ">
               <div className="w-full h-full flex flex-col gap-1">
                 <h2 className="text-xl font-bold mb-2">Mens Team</h2>
                 <ul className="list-none p-0">
@@ -152,36 +152,7 @@ const Navbar = () => {
                     </a>
                   ))}
                 </ul>
-              </div>
-                <div className="w-full h-full flex flex-col gap-1">               
-                  <img src={Away} alt="Home Kit" className="w-44 h-44 rounded-3xl" />
-                  <h2 className='font-bold '>
-                  Away Kit 23/24
-                  </h2>
-                  <ul>                                
-                    <li> <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Mens</a></li>
-                  </ul>
-                </div> 
-                <div className="w-full h-full flex flex-col gap-1 ">               
-                  <img src={Third} alt="Home Kit" className="w-44 h-44 rounded-3xl" />
-                  <h2 className='font-bold '>
-                    Third Kit 23/24
-                  </h2>
-                  <ul>                                
-                    <li> <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Mens</a></li>
-                  </ul>
-                </div> 
-                <div className="w-full h-full flex flex-col gap-1">               
-                  <img src={GoalKeeper} alt="Home Kit" className="w-44 h-44 rounded-3xl" />
-                  <h2 className='font-bold '>
-                    GoalKeeper Kit 23/24
-                  </h2>
-                  <ul>                                
-                    <li> <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Mens</a></li>
-                  </ul>
-                </div> 
-                
-                
+              </div>                                        
             </div>
             </div>          
             <div className="relative group">
