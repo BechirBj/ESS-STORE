@@ -1,8 +1,7 @@
 import React from "react";
-import bg from '../../Assets/kits/Sedonc-bg.jpg'
 import ez from '../../Assets/Nouveau dossier/background_store.png'
-import p1 from '../../Assets/Nouveau dossier/99/1.jpg'
-import h1 from '../../Assets/kits/homekit.jpg'
+import h1 from '../../Assets/kits/home3.jpg'
+import KitsCard from "./KitsCard";
 const Kitshero = () => {
   return (
 
@@ -37,51 +36,8 @@ const Kitshero = () => {
         </a>
       </div>
 
-      <div className="flex gap-4 flex-wrap">
-        <a href="" className="p-2 w-[301px] h-[415px] bg-white grid rounded-lg relative shadow-md">
-          <div className="flex flex-col items-center justify-center">
-            <div className="rounded-3xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-300">
-              <img src={bg} alt="" />
-            </div>
-          </div>
-          <div className="flex items-end justify-center">
-            <div className="text-gray-950 px-1 py-1 flex flex-col justify-end gap-3 w-full">
-              <div className="flex flex-wrap justify-start h-[50px] w-[90%]">
-                <span className="inline-flex items-center text-start font-bold text-gray-950 line-clamp-2 leading-6 tracking-tighter text-lg">
-                  Mens Home Jersey 23/24 White
-                </span>
-              </div>
-              <div className="inline-flex items-center h-[65px] border-t border-gray-200 font-bold w-full pt-3">
-                <p className="text-sm py-1 tracking-normal text-center text-gray-700"></p>
-                <span className="flex flex-wrap items-center tracking-normal">
-                  <span>70 DT</span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="" className="p-2 w-[301px] h-[415px] bg-white grid rounded-lg relative shadow-md">
-          <div className="flex flex-col items-center justify-center">
-            <div className="rounded-3xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-300">
-              <img src={bg} alt="" />
-            </div>
-          </div>
-          <div className="flex items-end justify-center">
-            <div className="text-gray-950 px-1 py-1 flex flex-col justify-end gap-3 w-full">
-              <div className="flex flex-wrap justify-start h-[50px] w-[90%]">
-                <span className="inline-flex items-center text-start font-bold text-gray-950 line-clamp-2 leading-6 tracking-tighter text-lg">
-                  Mens Home Jersey 23/24 White
-                </span>
-              </div>
-              <div className="inline-flex items-center h-[65px] border-t border-gray-200 font-bold w-full pt-3">
-                <p className="text-sm py-1 tracking-normal text-center text-gray-700"></p>
-                <span className="flex flex-wrap items-center tracking-normal">
-                  <span>70 DT</span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </a>
+      <div className="flex gap-4 flex-wrap w-[850px]">
+        <KitsCard className=""/>
       </div>
     </div>
       
