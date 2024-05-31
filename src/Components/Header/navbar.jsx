@@ -132,9 +132,8 @@ const Navbar = () => {
                       <li className="text-base leading-normal">{player.name}</li>
                     </button>
                   </a>
-                            ))}
-                            </ul>
-                    
+                  ))}
+                </ul>
               </div>                                        
             </div>
             </div>          
