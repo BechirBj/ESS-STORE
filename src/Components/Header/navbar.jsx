@@ -8,28 +8,10 @@ import Home from '../../Assets/navbar/homekit.jpg';
 import Away from '../../Assets/navbar/awaykit.jpg';
 import Third from '../../Assets/navbar/thirdkit.jpg';
 import GoalKeeper from '../../Assets/navbar/goalkeeper.jpg';
+import playerNames from '../../Assets/Data/Players/Players';
 
 const Navbar = () => {
-  const playerNames = [
-    "Ali Jemal",
-    "Raed Gazzeh",
-    "Hamza Jelassi",
-    "Zied Boughattas",
-    "Salaheddine Ghedamsi",
-    "Ghofrane Naouali",
-    "Houssem Ben Ali",
-    "Fradj Ben Njima",
-    "Jacques Mbé",
-    "Soumaila Sidibe",
-    "Mohamed Amine Ben Amor",
-    "Mohamed Amine Jebali",
-    "Salah Barhoumi",
-    "Assil Jaziri",
-    "Yassine Chikhaoui",
-    "Louay Ben Hassine",
-    "Raki Aouani",
-    "Mohamed Hedi Jertila",
-  ];
+  
   return (
     <div>
       <div className="bg-gradient-primary-secondary text-white p-3 text-center">
@@ -144,14 +126,15 @@ const Navbar = () => {
               <div className="w-full h-full flex flex-col gap-1">
                 <h2 className="text-xl font-bold mb-2">Mens Team</h2>
                 <ul className="list-none p-0">
-                  {playerNames.map((name, index) => (
-                    <a> 
-                      <button className='align-middle select-none font-sans transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:text-deep-purple-700 hover:bg-deep-purple-300 active:bg-gray-900/20 border-none rounded-sm font-semibold text-start normal-case text-sm xl:text-base text-gray-600 px-4 py-2'>
-                        <li key={index} className="text-base leading-normal">{name}</li>
-                      </button>
-                    </a>
-                  ))}
-                </ul>
+                  {playerNames.map((player) => (
+                    <a key={player.id} href="#">
+                    <button className="align-middle select-none font-sans transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:text-deep-purple-700 hover:bg-deep-purple-300 active:bg-gray-900/20 border-none rounded-sm font-semibold text-start normal-case text-sm xl:text-base text-gray-600 px-4 py-2">
+                      <li className="text-base leading-normal">{player.name}</li>
+                    </button>
+                  </a>
+                            ))}
+                            </ul>
+                    
               </div>                                        
             </div>
             </div>          
