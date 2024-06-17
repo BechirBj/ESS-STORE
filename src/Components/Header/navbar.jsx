@@ -9,6 +9,7 @@ import Away from '../../Assets/navbar/awaykit.jpg';
 import Third from '../../Assets/navbar/thirdkit.jpg';
 import GoalKeeper from '../../Assets/navbar/goalkeeper.jpg';
 import playerNames from '../../Assets/Data/Players/Players';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   
@@ -27,9 +28,9 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-2 flex items-center justify-between">
           <div className="flex items-center">
             <div className="w-28 h-28">
-              <a href="">
+              <Link to='/'>
                 <img src={logo} alt="Logo" />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -62,9 +63,9 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto py-4 px-2 sm:px-6 lg:px-8">
           <div className="flex justify-center">
             <div className="relative group">
-              <a href="#" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+              <Link to='/kits' className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
                 Kits
-              </a>
+              </Link>
               <div className="absolute  h-max w-max bg-white rounded-md shadow-lg z-10 hidden  group-hover:flex gap-5 p-3 ">
                 <div className="w-full h-full flex flex-col gap-1">               
                   <img src={Home} alt="Home Kit" className="w-44 h-44 rounded-3xl" />

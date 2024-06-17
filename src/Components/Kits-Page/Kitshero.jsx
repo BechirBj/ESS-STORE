@@ -37,7 +37,7 @@ const Kitshero = () => {
       </div>
 
       <div className="flex gap-4 flex-wrap w-[850px]">
-        <KitsCard className=""/>
+        <KitsCard className="flex"/>
       </div>
     </div>
       
