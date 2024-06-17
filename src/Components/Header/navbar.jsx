@@ -120,9 +120,9 @@ const Navbar = () => {
 
 
             <div className="relative group">
-              <a href="#" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+              <Link to="/Shop-Players" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
                 Shop By Player
-              </a>
+              </Link>
               <div className="absolute  w-[875px] bg-white rounded-md shadow-lg z-10 hidden  group-hover:flex gap-5 p-3 ">
               <div className="w-full h-full flex flex-col gap-1">
                 <h2 className="text-xl font-bold mb-2">Mens Team</h2>
