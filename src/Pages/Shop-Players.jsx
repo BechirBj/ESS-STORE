@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../Components/Header/navbar'
 import Footer from '../Components/Footer/Footer'
-import Kitshero from '../Components/Kits-Page/Kitshero'
+import ShopPlSection from '../Components/ShopPlayers/ShopPlSection'
 
 const ShopPlayers = () => {
   return (
     <div>
       <Navbar/>
+      <ShopPlSection/>
       <Footer/>
     </div>
   )
