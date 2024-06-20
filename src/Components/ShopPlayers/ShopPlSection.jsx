@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import allPlayers from '../../Assets/Data/Players/Players'; // Assuming allPlayers is imported correctly
-import { Link, useNavigate } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 const ShopPlSection = () => {
     const [filter, setFilter] = useState('All'); 
