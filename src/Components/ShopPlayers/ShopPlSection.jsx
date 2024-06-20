@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import allPlayers from '../../Assets/Data/Players/Players'; // Assuming allPlayers is imported correctly
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ShopPlSection = () => {
     const [filter, setFilter] = useState('All'); 
@@ -52,9 +52,11 @@ const ShopPlSection = () => {
                 </button>
             </div>
 
-            <div className="All-games grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div className="All-games grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 {filteredPlayers().map((player, index) => (
-                    <div key={index} className="mix p-4 border rounded-lg shadow-md text-center">
+                    <Link to={`/player/${player.id}`} key={index}>
+                    <div key={index} className="mix  border rounded-lg shadow-md text-center">
                         <div className="relative overflow-hidden">
                             <img className="w-full h-64 object-cover rounded-md" src={player.img} alt={player.name} />
                         </div>
@@ -63,8 +65,10 @@ const ShopPlSection = () => {
                             <span className="text-lg">{player.name}</span>
                         </div>
                     </div>
+                    </Link>
                 ))}
-            </div>
+
+                </div>            
         </div>
     )
 }
